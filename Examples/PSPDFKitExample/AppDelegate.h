@@ -8,7 +8,7 @@
 #define kPSPDFExampleDebugEnabled
 
 // uncomment to try out QuickLook instead of PSPDFKit
-#define kPSPDFQuickLookEngineEnabled
+//#define kPSPDFQuickLookEngineEnabled
 
 #ifdef kPSPDFExampleDebugEnabled
 #define PSELog(fmt, ...) NSLog((@"%s/%d " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
